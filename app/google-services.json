@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "131576135553",
+    "firebase_url": "https://counselling-d7f1e.firebaseio.com",
+    "project_id": "counselling-d7f1e",
+    "storage_bucket": "counselling-d7f1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131576135553:android:2ad69650ffad80b0",
+        "android_client_info": {
+          "package_name": "com.google.counselling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131576135553-9dqlu4ei743nh7jpmma84b97vqtee1or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.counselling",
+            "certificate_hash": "51228964aefef4e32a910c55b0c1091ff3d9b4e7"
+          }
+        },
+        {
+          "client_id": "131576135553-d9omshead19fseqe487lo91ij43ok0dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCktNj3LKXSmE6qwniSuokpPy_fF0WU_dc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131576135553-d9omshead19fseqe487lo91ij43ok0dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

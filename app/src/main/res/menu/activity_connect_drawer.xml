@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_blogs"
+            android:icon="@drawable/ic_blogs"
+            android:title="Blogs" />
+        <item
+            android:id="@+id/nav_watch"
+            android:icon="@drawable/ic_watch"
+            android:title="Watch" />
+        <item
+            android:id="@+id/nav_mood"
+            android:icon="@drawable/ic_mood"
+            android:title="Choose a mood" />
+        <item
+            android:id="@+id/nav_counsellor"
+            android:icon="@drawable/ic_counsellor"
+            android:title="Become a counsellor" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_connect"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Connect with us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

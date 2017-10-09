@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.google.counselling.Mood"
+    tools:showIn="@layout/app_bar_mood"
+    android:background="@drawable/bg">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+                <TextView
+                    android:id="@+id/angry"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/angry"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/confused"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/confused"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/angry" />
+
+                <TextView
+                    android:id="@+id/dont"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/dont"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/confused" />
+
+                <TextView
+                    android:id="@+id/goofy"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/goofy"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/dont" />
+
+                <TextView
+                    android:id="@+id/happy"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/happy"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/goofy" />
+
+                <TextView
+                    android:id="@+id/heart"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/heartbroken"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/happy" />
+
+                <TextView
+                    android:id="@+id/hurt"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/hurt"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/heart" />
+
+                <TextView
+                    android:id="@+id/love"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/love"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/hurt" />
+
+                <TextView
+                    android:id="@+id/sad"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/sad"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/love" />
+
+                <TextView
+                    android:id="@+id/sexy"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/sexy"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sad" />
+
+                <TextView
+                    android:id="@+id/shattered"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#80000000"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/shattered"
+                    android:textColor="#FFF"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sexy" />
+
+        </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+

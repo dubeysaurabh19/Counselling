@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Angry">#D43A3A</color>
+    <color name="Confused">#A1887F</color>
+    <color name="Dont">#7986CB</color>
+    <color name="Goofy">#4DB6AC</color>
+    <color name="Heartbroken">#64B5F6</color>
+    <color name="Happy">#FFD54F</color>
+    <color name="Hurt">#E0E0E0</color>
+    <color name="Loved">#E57373</color>
+    <color name="Sad">#4DD0E1</color>
+    <color name="Sexy">#FFD54F</color>
+    <color name="Shattered">#90A4AE</color>
+
+    <color name="hint_color">#C0C0C0</color>
+
+    <color name="background_color">#80000000</color>
+    <color name="white">#FFF</color>
+</resources>

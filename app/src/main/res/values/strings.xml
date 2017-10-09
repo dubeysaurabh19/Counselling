@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Counselling</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_send_message">Send</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_login_screen">Sign In</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_chat">Chat with us</string>
+    <string name="title_activity_blogs">Blog List</string>
+    <string name="title_activity_watch">Videos</string>
+    <string name="title_activity_video_display">VideoDisplay</string>
+    <string name="title_activity_mood">Choose a Mood</string>
+    <string name="title_activity_counsellor">Counsellor</string>
+
+    <string name="counsellorHeading">Become a Counsellor</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_address">Address</string>
+    <string name="acceptance">I accept the terms and conditions</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_connect">Connect with us</string>
+    <string name="title_activity_blog_display">Blog</string>
+
+    <string name="prompt_phone_number">Phone number</string>
+    <string name="prompt_verification_code">Verification code</string>
+    <string name="action_send_code">Send code</string>
+    <string name="action_verify">Verify</string>
+    <string name="action_resend">Resend code</string>
+
+    <string name="mail">Send a mail</string>
+    <string name="call">Call us</string>
+    <string name="chat">Chat with us</string>
+    <string name="title_activity_blog_list">Blog Category</string>
+
+    <string name="category_1">Awareness</string>
+    <string name="category_2">Burning Issues</string>
+    <string name="category_3">Counsel and Care</string>
+    <string name="category_4">Human Nature</string>
+    <string name="category_5">Love</string>
+    <string name="category_6">Laughter</string>
+    <string name="category_7">Personality</string>
+    <string name="category_8">Psychology</string>
+    <string name="category_9">Uncategorized</string>
+    <string name="title_activity_images">Images</string>
+
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="love">Loved</string>
+    <string name="angry">Angry</string>
+    <string name="heartbroken">Heartbroken</string>
+    <string name="goofy">Goofy</string>
+    <string name="confused">Confused</string>
+    <string name="hurt">Hurt</string>
+    <string name="shattered">Shattered</string>
+    <string name="dont">Dont Know</string>
+    <string name="sexy">Sexy</string>
+    <string name="title_activity_mood_display">Mood</string>
+
+    <string name="angry_content">This is the content of Angry mood</string>
+    <string name="confused_content">This is the content of Confused mood</string>
+    <string name="dont_content">This is the content of Dont Know mood</string>
+    <string name="goofy_content">This is the content of Goofy mood</string>
+    <string name="happy_content">This is the content of Happy mood</string>
+    <string name="heartbroken_content">This is the content of Heartbroken mood</string>
+    <string name="hurt_content">This is the content of Hurt mood</string>
+    <string name="love_content">This is the content of Loved mood</string>
+    <string name="sad_content">This is the content of Sad mood</string>
+    <string name="sexy_content">This is the content of Sexy mood</string>
+    <string name="shattered_content">This is the content of Shattered mood</string>
+    <string name="title_activity_random">Random</string>
+    <string name="chat_hint">Let me know how can I help you?</string>
+
+    <string name="phone_login">Sign in using phone number</string>
+    <string name="signin_heading">Help us know you better</string>
+    <string name="register_heading">Register with us</string>
+
+</resources>
